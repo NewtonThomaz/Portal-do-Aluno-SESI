@@ -75,3 +75,4 @@ python nome_do_arquivo.py
  https://newtonthomaz.github.io/Portal-do-Aluno/
 ## 📢 Créditos
 Criado por **Prof-Café ☕** -->
+https://newtonthomaz.github.io/Portal-do-Aluno-SESI/
