@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #8c8c8c;
+}
+.carrosel-1 {
+    display: flex;
+    width: 100%;
+}
+.cards {
+    filter: drop-shadow(10px 10px 1px #ed1c24);
+    background-color: #FFFFFF;
+    width: 60dvw;
+    margin-inline: auto;
+    margin-block: 4dvh;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    padding: 20px;
+
+    h2 {
+        background-color: #ed1c24;
+        padding: 5px 20px 5px 20px;
+        color: white;
+        display: flex;
+        width: 40dvw;
+        margin-bottom: 15px;
+    }
+
+
+
+    .red {
+        color: #ed1c24;
+    }
+}
+
+.botoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: auto;
+    width: 85dvw;
+
+    button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 25dvw;
+        height: 13dvw;
+        border-radius: 15px;
+        border: none;
+        background-color: #ed1c24;
+        justify-content: space-around;
+        margin-block: 1dvh;
+
+        img {
+            height: 10dvw;
+        }
+
+        p {
+            font-size: 2rem;
+            color: #FFFFFF;
+        }
+    }
+}
+
+.carrosel {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3dvh;
+    button {
+        background-color: #ed1c24;
+        border: none;
+        color: #FFFFFF;
+        height: 10dvw;
+        width: 10dvw;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+    .alinha-carrosel {
+        img {
+            width: 75dvw;
+            position: relative;
+        }
+
+        p {
+            position: absolute;
+            background-color: #ed1c24;
+            text-align: center;
+            padding: 5px;
+            width: 30dvw;
+            color: #FFFFFF;
+            margin-left: 46dvw;
+            margin-top: -5dvh;
+            font-size: 2rem;
+        }
+
+        .loading {
+            display: flex;
+            justify-content: center;
+            margin: 2dvh;
+            gap: 20px;
+
+            span {
+                height: 30px;
+                width: 30px;
+                border-radius: 100%;
+                background-color: #d9d9d9;
+            }
+
+            .ativo {
+                background-color: #ed1c24;
+            }
+        }
+    }
+}
+footer {
+    .roda-pe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f0f0f0;
+        width: 100%;
+        margin-top: 3px;
+        padding: 10px;
+        section {
+            margin-left: auto;
+        }
+        span {
+            font-size: 0.8rem;
+        }
+    }
+    .alinha-roda-pe {
+        display: flex;
+        justify-content: space-between;
+        section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f0f0f0;
+            width: calc((100dvw / 3) - 6px);
+            padding-block: 20px;
+        }
+    }
+}
+@media (width < 750px) {
+    footer .alinha-roda-pe section {
+        width: calc((100dvw / 3) - 1px);
+        font-size: 0.8rem;
+    }
+    
+    .cards {
+
+        width: 75dvw;
+        font-size: 0.7rem;
+
+        h2 {
+            font-size: 0.9rem;
+            width: calc(100% - 25px);
+        }
+
+    }
+
+    .botoes {
+        button {
+            border-radius: 8px;
+
+            p {
+                font-size: 0.6rem;
+            }
+        }
+    }
+
+    .carrosel{
+        button {
+            border-radius: 8px;
+        }
+        .alinha-carrosel{
+            p {
+                font-size: 1rem;
+                width: 65dvw;
+                margin-left: 13dvw;
+                margin-top: -4dvh;
+            }
+            .loading span {
+                height: 10px;
+                width: 10px;
+            }
+        }
+    } 
+} 
