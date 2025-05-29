@@ -37,7 +37,7 @@ const entrar = () => {
     } else {
         for (let i = 0; i < usuariosValidos.length; i++) {
             if (usuarioV === usuariosValidos[i] && senhaV === senhasValidas[i]) {
-                window.location.href = 'pages/inicio.html';
+                window.location.href = '../pages/inicio.html';
                 validaLogin = false;
             }
         } if (validaLogin) {
