@@ -89,6 +89,13 @@ html {
             visibility: hidden;
         }
 
+        .cadastrar {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            a {
+                color: #ed1c24;
+            }
+        }
     }
 
     .entrar {
@@ -98,7 +105,7 @@ html {
         letter-spacing: 1px;
         font-size: 1.25rem;
         font-weight: 700;
-        margin-top: 10px;
+        margin-top: 0;
         border-radius: 10px;
         display: flex;
         align-items: center;
