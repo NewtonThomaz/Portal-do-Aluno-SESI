@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/default.css">
-    <link rel="stylesheet" href="../css/inicio.css">
+    <link rel="stylesheet" href="../css/salas.css">
     <link rel="icon" href="../img/logo.png">
-    <title>Início</title>
+    <title>Salas</title>
 </head>
 
-<body>
+<body style="height: 100dvh;">
     <nav>
         <section id="lupa">
             <img src="../img/search.png" alt="lupa de pesquisa">
@@ -42,112 +42,27 @@
             <figure></figure>
         </section>
     </nav>
-
-    <img src="../img/1.jpg" alt="Imagem do carrosel" class="carrosel-1">
-
-    <section class="cards">
-        <h2>Apresentação da Nossa Plataforma de Aprendizado!</h2>
-
-        <p>
-            <strong class="red">
-                Conteúdo de Alta Qualidade:
-            </strong>
-            Em nossa aplicação, você terá a oportunidade de
-            explorar um vasto conteúdo de alta
-            qualidade, meticulosamente desenvolvido para abranger todos os aspectos essenciais de cada componente
-            curricular. Nossa plataforma é projetada para proporcionar uma experiência de aprendizado enriquecedora e
-            personalizada, permitindo que você aprofunde seus conhecimentos nas áreas que mais lhe interessam.
-        </p>
-        <p>
-            <strong class="red">
-                Desenvolvimento Integral:
-            </strong>
-            Cada recurso, exercício e atividade foi cuidadosamente elaborado para garantir que
-            você não apenas adquira conhecimento, mas também desenvolva habilidades práticas e críticas que são
-            fundamentais para o seu crescimento pessoal e profissional.
-        </p>
-        <p>
-            <strong class="red">
-                Impacto Positivo:
-            </strong>
-            Ao utilizar nossa aplicação, você estará investindo em sua evolução como indivíduo e
-            contribuindo para o progresso da comunidade ao seu redor.
-        </p>
-        <p>
-            <strong class="red">
-                Inovação e Motivação:
-            </strong>
-            Com uma abordagem inovadora e interativa, nossa aplicação visa não apenas transmitir
-            informações, mas também inspirar e motivar você a alcançar seus objetivos e superar desafios.
-        </p>
-        <p>
-            <strong class="red">
-                Para Todos:
-            </strong>
-            Seja você um estudante em busca de aprimoramento acadêmico, um profissional visando atualização
-            contínua ou alguém apaixonado por aprender, nossa plataforma é o espaço ideal para você expandir seus
-            horizontes e alcançar seu pleno potencial.
-        </p>
+    <section class="overUser"></section>
+    <section class="userBar">
+        <p>conclua sua atividades pendentes</p>
+        <article>
+            <p>Nome de Usuario</p>
+            <img src="" alt="">
+        </article>
     </section>
 
+    <main>
 
-    <section class="botoes">
-
-        <button>
-            <img src="../img/calendar_check.png" alt="calendario">
-            <p>Vestibulares</p>
-        </button>
-        <button>
-            <img src="../img/medal.png" alt="calendario">
-            <p>Olimpiadas</p>
-        </button>
-        <button>
-            <img src="../img/book.png" alt="calendario">
-            <p>Material Didatico</p>
-        </button>
-        <button>
-            <img src="../img/report_card.png" alt="calendario">
-            <p>Boletim</p>
-        </button>
-        <button onclick="window.location.href ='salas.html'">
-            <img src="../img/stack_of_books.png" alt="calendario">
-            <p>Salas</p>
-        </button>
-        <button>
-            <img src="../img/calendar.png" alt="calendario">
-            <p>Cronograma</p>
-        </button>
-    </section>
-
-    <section class="carrosel">
-        <button id="voltar">
-            <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" fill="currentColor"
-                class="bi bi-caret-left-fill" viewBox="0 0 16 16">
-                <path
-                    d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z" />
-            </svg>
-        </button>
-        <main class="alinha-carrosel">
-            <img src="../img/1.jpg" alt="" id="carrosel-normal">
-            <p>
-                <strong>Verão no ses - </strong>
-                venha se refrescar nas nossas piscinas.
-            </p>
-            <section class="loading">
-                <span id="1" class="ativo"></span>
-                <span id="2"></span>
-                <span id="3"></span>
-                <span id="4"></span>
+        <article onclick="window.location.href = 'geografia.html'">
+            <section class="textos">
+                <h2>Geografia</h2>
+                <p>Professora: Sandra Kamio</p>
             </section>
-        </main>
-        <button id="passar">
-            <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" fill="currentColor"
-                class="bi bi-caret-right-fill" viewBox="0 0 16 16">
-                <path
-                    d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z" />
-            </svg>
-        </button>
-    </section>
+            <img src="" alt="">
+        </article>
+
+    </main>
+
     <footer>
         <section class="alinha-roda-pe">
             <section>Perguntas frequentes</section>
@@ -176,7 +91,6 @@
         </section>
     </footer>
     <script src="../js/default.js" defer></script>
-    <script src="../js/inicio.js" defer></script>
 </body>
 
 </html>
