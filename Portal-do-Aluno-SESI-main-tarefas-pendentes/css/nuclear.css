@@ -1,0 +1,65 @@
+.tudo {
+    display: flex;
+    justify-content: center;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ed1c24;
+    margin-top: 2dvh;
+    width: 80%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    justify-content: space-between;
+    color: white;
+}
+
+.conjunto {
+    display: flex;
+    align-items: center;
+    gap: 5dvh;
+    margin-left: 3dvh;
+}
+
+.user {
+    margin: 5dvh;
+}
+
+.cinza {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 582px) {
+  .arsenal {
+    width: 99%;
+  }
+}
+
+@media (max-width: 503px) {
+  .video {
+    width: 99%;
+  }
+}
+
+.descricao {
+    width: 60%;
+    background-color: #d9d9d9;
+    padding: 20px;
+    margin: 40px;
+    justify-content: center;
+}
+
+.englobaimg {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+a{
+    display: flex;
+    margin-bottom: 20px;
+}
+
