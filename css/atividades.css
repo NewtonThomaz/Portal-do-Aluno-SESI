@@ -83,6 +83,7 @@ nav {
         flex-wrap: wrap;
         column-gap: 50px;
         min-height: 200px;
+        gap: 10px;
 
         article {
             filter: drop-shadow(0 0 12px rgba(0, 0, 0, 0.200));
@@ -137,6 +138,7 @@ nav {
 
     }
 }
+
 
 @media (width < 750px) {
     .alinhaMain main article {
