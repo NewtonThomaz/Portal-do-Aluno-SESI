@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../img/logo.png">
     <link rel="stylesheet" href="../css/default.css">
-    <link rel="stylesheet" href="../css/salas.css">
-    <title>Salas</title>
+    <link rel="stylesheet" href="../css/atividades.css">
+    <link rel="icon" href="../img/logo.png">
+    <title>atividades</title>
 </head>
 
 <body>
@@ -52,26 +52,46 @@
         </span>
     </section>
 
-    <main>
+    <section class="alinhaMain">
+        <section class="cabecalho">
+            <section onclick="window.location.href='salas.html'">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
+                    class="bi bi-arrow-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                </svg>
 
-        <article onclick="window.location.href = 'atividades.html'">
-            <section class="conteúdo">
-                <h2>Geografia</h2>
-                <p>Professora: Sandra Kamio</p>
+                <span>
+                    <h2>Geografia</h2>
+                    <p>Professora: Sandra Kamio</p>
+                </span>
             </section>
+
             <img src="" alt="">
-        </article>
+        </section>
+        <main>
+
+            <article>
+                <section>
+                    <span>
+                        <img src="../img/globo.png" alt="">
+                    </span>
+                </section>
+
+                <h4>Questão Palestina e os desdobramentos atuais entre Israel e Palestina</h4>
+
+                <span class="botao" onclick="window.location.href='conteudo1.html'">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                        class="bi bi-caret-right" viewBox="0 0 16 16">
+                        <path
+                            d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753" />
+                    </svg>
+                </span class="botao">
+            </article>
 
 
-    </main>
-
-    <!-- <button class="avisos">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-megaphone-fill"
-            viewBox="0 0 16 16">
-            <path
-                d="M13 2.5a1.5 1.5 0 0 1 3 0v11a1.5 1.5 0 0 1-3 0zm-1 .724c-2.067.95-4.539 1.481-7 1.656v6.237a25 25 0 0 1 1.088.085c2.053.204 4.038.668 5.912 1.56zm-8 7.841V4.934c-.68.027-1.399.043-2.008.053A2.02 2.02 0 0 0 0 7v2c0 1.106.896 1.996 1.994 2.009l.496.008a64 64 0 0 1 1.51.048m1.39 1.081q.428.032.85.078l.253 1.69a1 1 0 0 1-.983 1.187h-.548a1 1 0 0 1-.916-.599l-1.314-2.48a66 66 0 0 1 1.692.064q.491.026.966.06" />
-        </svg>
-    </button> -->
+        </main>
+    </section>
 
     <footer>
         <section class="alinha-roda-pe">
@@ -100,8 +120,7 @@
             <span>Copyright 2025 &copy; Koders - Todos os direitos reservados</span>
         </section>
     </footer>
-
-    <script src="../js/default.js" defer></script>
+    <script src="../js/default.js"></script>
 </body>
 
 </html>

@@ -10,10 +10,12 @@
 body {
     background-color: #8c8c8c;
 }
+
 .carrosel-1 {
     display: flex;
     width: 100%;
 }
+
 .cards {
     filter: drop-shadow(10px 10px 1px #ed1c24);
     background-color: #FFFFFF;
@@ -78,6 +80,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     margin-top: 3dvh;
+
     button {
         background-color: #ed1c24;
         border: none;
@@ -89,7 +92,7 @@ body {
         align-items: center;
         justify-content: center;
         cursor: pointer;
-    
+
     }
 
     .alinha-carrosel {
@@ -129,7 +132,9 @@ body {
         }
     }
 }
+
 @media (width < 750px) {
+
     .cards {
 
         width: 75dvw;
@@ -152,21 +157,23 @@ body {
         }
     }
 
-    .carrosel{
+    .carrosel {
         button {
             border-radius: 8px;
         }
-        .alinha-carrosel{
+
+        .alinha-carrosel {
             p {
                 font-size: 1rem;
                 width: 65dvw;
                 margin-left: 13dvw;
                 margin-top: -4dvh;
             }
+
             .loading span {
                 height: 10px;
                 width: 10px;
             }
         }
-    } 
-} 
+    }
+}
